@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import { Typography } from 'antd'
+import {Typography} from 'antd'
 import {
     GiftOutlined,
     MailOutlined,
@@ -19,38 +19,41 @@ export default function About() {
         <div className="about-container">
             <div className="about-shape1">
                 <div className='about-intro'>
-                    <Typography.Text className="about-introName">Trần Trung Nhật</Typography.Text>
-                    <br />
-                    <span className="about-introDescript">Fullstack Developer</span>
+                    <img src={avatar} className="about-avatar" alt="avatar"/>
+                    <div style={{marginLeft: '0.5rem', lineHeight: '40px'}}>
+                        <Typography.Text className="about-introName">Trần Trung Nhật</Typography.Text>
+                        <br/>
+                        <span className="about-introDescript">Fullstack Developer</span>
+                    </div>
                 </div>
                 <div className="about-tag">
-                    <div className='about-introTag' >
-                        <GiftOutlined className="about-tagIcon" />
+                    <div className='about-introTag'>
+                        <GiftOutlined className="about-tagIcon"/>
                         <span className="about-tagText">06/01/1996</span>
                     </div>
-                    <br />
+                    <br/>
                     <div className='about-introTag'>
-                        <PhoneOutlined className="about-tagIcon" />
+                        <PhoneOutlined className="about-tagIcon"/>
                         <span className="about-tagText">(+84) 369401262</span>
                     </div>
-                    <br />
-                    <div className='about-introTag' >
-                        <MailOutlined className="about-tagIcon" />
+                    <br/>
+                    <div className='about-introTag'>
+                        <MailOutlined className="about-tagIcon"/>
                         <span className="about-tagText">trantrungnhat@gmail.com</span>
                     </div>
-                    <br />
-                    <div className='about-introTag' >
-                        <GithubOutlined className="about-tagIcon" />
+                    <br/>
+                    <div className='about-introTag'>
+                        <GithubOutlined className="about-tagIcon"/>
                         <span className="about-tagText">https://github.com/Nathan-Nhat</span>
                     </div>
-                    <br />
-                    <div className='about-introTag' >
-                        <SkypeOutlined className="about-tagIcon" />
+                    <br/>
+                    <div className='about-introTag'>
+                        <SkypeOutlined className="about-tagIcon"/>
                         <span className="about-tagText">trantrungnhat6196@live.com</span>
                     </div>
-                    <br />
+                    <br/>
                     <div className='about-introTag'>
-                        <HomeOutlined className="about-tagIcon" />
+                        <HomeOutlined className="about-tagIcon"/>
                         <span className="about-tagText">The Pride Tower, To Huu Street, La Khe Ward, Ha Dong District, Ha Noi</span>
                     </div>
                 </div>
@@ -65,9 +68,6 @@ export default function About() {
                 {/*        <img src={linkedin} alt="twitter" className="about-liicon" />*/}
                 {/*    </a>*/}
                 {/*</div>*/}
-            </div>
-            <div className="about-shape2">
-                <img src={avatar} className="about-avatar" alt="avatar" />
             </div>
         </div>
     )
