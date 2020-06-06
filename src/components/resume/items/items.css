@@ -31,6 +31,9 @@
 @media screen and (min-width: 768px) {
   .university-itemTag.mobile,
   .university-itemTag.lab {
+    justify-content: flex-start;
+  }
+  .university-itemTag.company {
     justify-content: flex-end;
   }
 }

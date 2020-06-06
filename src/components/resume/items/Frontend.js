@@ -10,7 +10,7 @@ export default function Frontend() {
             <div>
                 <strong className="university-name">Company</strong> <span className="university-time">4/2019-6/2020</span>
             </div>
-            <div className="university-itemTag">
+            <div className="university-itemTag company">
                 <LaptopOutlined className="university-tagIcon" />
                 <span className="university-tagText">Software Engineer</span>
             </div>
