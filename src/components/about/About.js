@@ -19,34 +19,34 @@ export default function About() {
         <div className="about-container">
             <div className="about-shape1">
                 <div className='about-intro'>
-                    <Typography.Text className="about-introName">Trần Thế Lâm</Typography.Text>
+                    <Typography.Text className="about-introName">Trần Trung Nhật</Typography.Text>
                     <br />
-                    <span className="about-introDescript">WebApps and Applications Developer</span>
+                    <span className="about-introDescript">Fullstack Developer</span>
                 </div>
                 <div className="about-tag">
                     <div className='about-introTag' >
                         <GiftOutlined className="about-tagIcon" />
-                        <span className="about-tagText">10/05/1999</span>
+                        <span className="about-tagText">06/01/1996</span>
                     </div>
                     <br />
                     <div className='about-introTag'>
                         <PhoneOutlined className="about-tagIcon" />
-                        <span className="about-tagText">0962007024</span>
+                        <span className="about-tagText">(+84) 369401262</span>
                     </div>
                     <br />
                     <div className='about-introTag' >
                         <MailOutlined className="about-tagIcon" />
-                        <span className="about-tagText">lam1051999@gmail.com</span>
+                        <span className="about-tagText">trantrungnhat@gmail.com</span>
                     </div>
                     <br />
                     <div className='about-introTag' >
                         <GithubOutlined className="about-tagIcon" />
-                        <span className="about-tagText">https://github.com/lam1051999</span>
+                        <span className="about-tagText">https://github.com/Nathan-Nhat</span>
                     </div>
                     <br />
                     <div className='about-introTag' >
                         <SkypeOutlined className="about-tagIcon" />
-                        <span className="about-tagText">0962007024</span>
+                        <span className="about-tagText">trantrungnhat6196@live.com</span>
                     </div>
                     <br />
                     <div className='about-introTag'>
@@ -54,17 +54,17 @@ export default function About() {
                         <span className="about-tagText">The Pride Tower, To Huu Street, La Khe Ward, Ha Dong District, Ha Noi</span>
                     </div>
                 </div>
-                <div>
-                    <a target="_blank" href="https://www.facebook.com/lam.tt173223" rel="noopener noreferrer" >
-                        <img src={facebook} alt="facebook" className="about-fbicon" />
-                    </a>
-                    <a target="_blank" href="https://twitter.com/TrnLm29507341" rel="noopener noreferrer" >
-                        <img src={twitter} alt="twitter" className="about-tticon" />
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/tr%E1%BA%A7n-l%C3%A2m-21b57b1a2/" rel="noopener noreferrer" >
-                        <img src={linkedin} alt="twitter" className="about-liicon" />
-                    </a>
-                </div>
+                {/*<div>*/}
+                {/*    <a target="_blank" href="https://www.facebook.com/trantrung.nhat.56/" rel="noopener noreferrer" >*/}
+                {/*        <img src={facebook} alt="facebook" className="about-fbicon" />*/}
+                {/*    </a>*/}
+                {/*    <a target="_blank" href="https://twitter.com/TrnLm29507341" rel="noopener noreferrer" >*/}
+                {/*        <img src={twitter} alt="twitter" className="about-tticon" />*/}
+                {/*    </a>*/}
+                {/*    <a target="_blank" href="https://www.linkedin.com/in/tr%E1%BA%A7n-l%C3%A2m-21b57b1a2/" rel="noopener noreferrer" >*/}
+                {/*        <img src={linkedin} alt="twitter" className="about-liicon" />*/}
+                {/*    </a>*/}
+                {/*</div>*/}
             </div>
             <div className="about-shape2">
                 <img src={avatar} className="about-avatar" alt="avatar" />

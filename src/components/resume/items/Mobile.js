@@ -8,14 +8,14 @@ export default function Mobile() {
     return (
         <div className="university-container">
             <div>
-                <strong className="university-name">Hybrid mobile Developer</strong> <span className="university-time">1/2020-4/2020</span>
+                <strong className="university-name">Fullstack Developer</strong> <span className="university-time">8/2019-now</span>
             </div>
             <div className="university-itemTag mobile">
                 <AndroidOutlined className="university-tagIcon" />
-                <span className="university-tagText">Self Learning</span>
+                <span className="university-tagText">Python/Flask/Java/ReactJS</span>
             </div>
             <p className="university-description">
-                I do stuffs like tutorials and make private apps like weather broadcast,... and there are some .apk ready to deploy
+                Learning and working fullstack developer, focus on Python Back-end and ReactJs front-end
             </p>
         </div>
     )

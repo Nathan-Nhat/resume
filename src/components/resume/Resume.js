@@ -11,7 +11,6 @@ import {
     ClusterOutlined,
     AppleOutlined
 } from '@ant-design/icons'
-import Lab from './items/Lab';
 import Mobile from './items/Mobile';
 
 export default function Resume() {
@@ -34,7 +33,6 @@ export default function Resume() {
             </div>
             <Timeline className="resume-timeline" mode={width ? "alternate" : 'left'}>
                 <Timeline.Item dot={<UserOutlined className="resume-icon" />}><University /></Timeline.Item>
-                <Timeline.Item dot={<ClusterOutlined className="resume-icon" />}><Lab /></Timeline.Item>
                 <Timeline.Item dot={<Html5Outlined className="resume-icon" />}><Frontend /></Timeline.Item>
                 <Timeline.Item dot={<AppleOutlined className="resume-icon" />}><Mobile /></Timeline.Item>
             </Timeline>

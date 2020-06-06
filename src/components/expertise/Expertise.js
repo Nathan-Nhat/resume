@@ -20,7 +20,7 @@ export default function Expertise() {
                         from: '#108ee9',
                         to: '#87d068',
                     }}
-                    percent={70}
+                    percent={60}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
@@ -31,29 +31,18 @@ export default function Expertise() {
                         from: '#c62828',
                         to: '#ffcdd2',
                     }}
-                    percent={80}
+                    percent={65}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
                 />
-                <Typography.Text className="expertise-content">React Native</Typography.Text>
-                <Progress
-                    strokeColor={{
-                        from: '#7b1fa2',
-                        to: '#e1bee7',
-                    }}
-                    percent={50}
-                    status="active"
-                    showInfo={false}
-                    strokeWidth={15}
-                />
-                <Typography.Text className="expertise-content">NodeJs</Typography.Text>
+                <Typography.Text className="expertise-content">Python/Flask</Typography.Text>
                 <Progress
                     strokeColor={{
                         from: '#1976d2',
                         to: '#bbdefb',
                     }}
-                    percent={20}
+                    percent={70}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
@@ -64,18 +53,29 @@ export default function Expertise() {
                         from: '#00796b',
                         to: '#b2dfdb',
                     }}
-                    percent={20}
+                    percent={65}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
                 />
-                <Typography.Text className="expertise-content">Java</Typography.Text>
+                <Typography.Text className="expertise-content">Java Spring</Typography.Text>
                 <Progress
                     strokeColor={{
                         from: '#f57c00',
                         to: '#ffe0b2',
                     }}
-                    percent={20}
+                    percent={30}
+                    status="active"
+                    showInfo={false}
+                    strokeWidth={15}
+                />
+                <Typography.Text className="expertise-content">Docker/Nginx Server</Typography.Text>
+                <Progress
+                    strokeColor={{
+                        from: '#7b1fa2',
+                        to: '#e1bee7',
+                    }}
+                    percent={30}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}

@@ -22,7 +22,7 @@ export default function Header() {
     return (
         <div style={{ position: 'fixed', top: 0, backgroundColor: headerShown ? 'rgb(27, 94, 32, 0.8)' : 'rgb(27, 94, 32, 0.4)', zIndex: 1000, width: '100%' }}>
             <Row className="header-container" align="middle">
-                <Col xs={20} sm={20} md={12} className="header-nameContainer"><Typography.Text onClick={() => scrollToElement("about", -260)} className="header-name">T.Lâm Dev</Typography.Text></Col>
+                <Col xs={20} sm={20} md={12} className="header-nameContainer"><Typography.Text onClick={() => scrollToElement("about", -260)} className="header-name">Nhat.TT</Typography.Text></Col>
                 <Col md={12} sm={0} xs={0} >
                     <Row justify="end">
                         <HeaderItems />
