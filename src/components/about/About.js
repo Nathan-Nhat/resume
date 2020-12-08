@@ -28,18 +28,13 @@ export default function About() {
                 </div>
                 <div className="about-tag">
                     <div className='about-introTag'>
-                        <GiftOutlined className="about-tagIcon"/>
-                        <span className="about-tagText">06/01/1996</span>
-                    </div>
-                    <br/>
-                    <div className='about-introTag'>
                         <PhoneOutlined className="about-tagIcon"/>
                         <span className="about-tagText">(+84) 369401262</span>
                     </div>
                     <br/>
                     <div className='about-introTag'>
                         <MailOutlined className="about-tagIcon"/>
-                        <span className="about-tagText">trantrungnhat@gmail.com</span>
+                        <span className="about-tagText">trantrungnhat6196@gmail.com</span>
                     </div>
                     <br/>
                     <div className='about-introTag'>

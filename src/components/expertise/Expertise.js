@@ -31,18 +31,18 @@ export default function Expertise() {
                         from: '#c62828',
                         to: '#ffcdd2',
                     }}
-                    percent={65}
+                    percent={50}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
                 />
-                <Typography.Text className="expertise-content">Python/Flask</Typography.Text>
+                <Typography.Text className="expertise-content">Python/Flask/Django</Typography.Text>
                 <Progress
                     strokeColor={{
                         from: '#1976d2',
                         to: '#bbdefb',
                     }}
-                    percent={70}
+                    percent={75}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}
@@ -54,17 +54,6 @@ export default function Expertise() {
                         to: '#b2dfdb',
                     }}
                     percent={65}
-                    status="active"
-                    showInfo={false}
-                    strokeWidth={15}
-                />
-                <Typography.Text className="expertise-content">Java Spring</Typography.Text>
-                <Progress
-                    strokeColor={{
-                        from: '#f57c00',
-                        to: '#ffe0b2',
-                    }}
-                    percent={30}
                     status="active"
                     showInfo={false}
                     strokeWidth={15}

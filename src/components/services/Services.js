@@ -32,12 +32,13 @@ export default function Services() {
                     <div className="services-service">
                         <GithubOutlined className="services-icon" />
                         <br />
-                        <Typography.Text className="services-serviceName">Programming self learning</Typography.Text>
-                        <p className="services-serviceDescription">I've learnt courses, tutorials online and also done some private projects<br />
-                            Front-end: HTML5, CSS, Javascript, ReactJs <br />
-                            Back-end: Python, Flask, Java Spring <br />
-                            Deloyment : Docker, Nginx... <br />
-                            Version Control : Git, SVN
+                        <Typography.Text className="services-serviceName">Programming skills</Typography.Text>
+                        <p className="services-serviceDescription">
+                            <strong>Embedded:</strong> Application layer for Head Unit with C/C++ <br />
+                            <strong>Front-end:</strong> HTML5, CSS, Javascript, ReactJs <br />
+                            <strong>Back-end:</strong> Python, Flask, Django <br />
+                            <strong>Deployment:</strong> Docker, Nginx... <br />
+                            <strong>Version Control:</strong> Git, SVN <br />
                         </p>
                     </div>
                 </Col>
@@ -46,7 +47,8 @@ export default function Services() {
                         <SecurityScanOutlined className="services-icon" />
                         <br />
                         <Typography.Text className="services-serviceName">Company</Typography.Text>
-                        <p className="services-serviceDescription">Working full-time as Software engineer at Humax Viet Nam</p>
+                        <p className="services-serviceDescription">Working as Software engineer at Humax Viet Nam R&D center</p>
+                        <p className="services-serviceDescription">Working as full-stack engineer at CMC global</p>
                     </div>
                 </Col>
             </Row>

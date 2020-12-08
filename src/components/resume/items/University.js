@@ -8,14 +8,14 @@ export default function University() {
     return (
         <div className="university-container">
             <div>
-                <strong className="university-name">University</strong> <span className="university-time">2014-2019</span>
+                <strong className="university-name">University</strong> <span className="university-time">2014-2018</span>
             </div>
             <div className="university-itemTag">
                 <BankOutlined className="university-tagIcon" />
                 <span className="university-tagText">Ha Noi University of Science and Technology</span>
             </div>
             <p className="university-description">
-                My major is Electronics and Computer Science
+                Electronics and Computer Science
             </p>
         </div>
     )
